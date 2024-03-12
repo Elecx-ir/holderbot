@@ -30,7 +30,7 @@ with app :
                                 app.send_message(chat_id=BOSS_CHATID , text=f"<b>✅ Boss! user <code>{USERNAME}</code> is Activated,\nI have set the inbounds.</b>" , parse_mode=enums.ParseMode.HTML)
                             else :
                                 app.send_message(chat_id=BOSS_CHATID , text=f"<b>❗ Boss! user <code>{USERNAME}</code> is Activated,\nbut I can't set the inbounds.\n\n<pre>{RESPONCE.text}</pre></b>" , parse_mode=enums.ParseMode.HTML)                                
-                        time.sleep(2)
+                        time.sleep(0.5)
                 time.sleep(5)
             else :
                 time.sleep(60)
