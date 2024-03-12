@@ -139,10 +139,13 @@ chmod +x monitoring.py
 chmod +x holder.py
 chmod +x expired.py
 chmod +x limiteder.py
+chmod +x activated.py
 nohup python3 monitoring.py & disown
 nohup python3 holder.py & disown
 nohup python3 expired.py & disown
 nohup python3 limiteder.py & disown
+nohup python3 activated.py & disown
+
 
 
 
